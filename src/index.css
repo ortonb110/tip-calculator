@@ -20,3 +20,31 @@
         background-color: hsl(185, 41%, 84%);
     }
 }
+
+@layer utilities {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      @apply appearance-none;
+    }
+  }
+
+  @layer components {
+    .input  {
+        @apply w-full bg-veryLightGrayishCyan text-[2.4rem] py-2 px-4 text-darkGrayishCyan text-right focus:outline-none placeholder-darkGrayishCyan rounded-md
+    }
+    .inputicon {
+        @apply absolute  translate-y-2/4 translate-x-[1.5rem] bottom-[50%] w-[1.3rem]
+    }
+
+    .btn {
+        @apply bg-veryDarkCyan w-[11.7rem] rounded-md h-[4.8rem] text-white
+    }
+
+    .transition {
+        @apply transition-all ease-in-out duration-300
+    }
+
+    .btn-hover-active {
+        @apply hover:bg-primaryColor transition focus:bg-primaryColor
+    }
+  }
