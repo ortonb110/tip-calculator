@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ortonb110/tip-calculator/static/css/main.300c3d0e.css",
+    "main.js": "/ortonb110/tip-calculator/static/js/main.7cba6227.js",
+    "static/js/787.364622ff.chunk.js": "/ortonb110/tip-calculator/static/js/787.364622ff.chunk.js",
+    "static/media/logo.svg": "/ortonb110/tip-calculator/static/media/logo.3cc0528bd46321d63d85702006069614.svg",
+    "static/media/icon-dollar.svg": "/ortonb110/tip-calculator/static/media/icon-dollar.9f9be3534a9295a6595764d63a7bf3a3.svg",
+    "static/media/icon-person.svg": "/ortonb110/tip-calculator/static/media/icon-person.65bfd20465dd1d2cb58c0b53e1160442.svg",
+    "index.html": "/ortonb110/tip-calculator/index.html",
+    "main.300c3d0e.css.map": "/ortonb110/tip-calculator/static/css/main.300c3d0e.css.map",
+    "main.7cba6227.js.map": "/ortonb110/tip-calculator/static/js/main.7cba6227.js.map",
+    "787.364622ff.chunk.js.map": "/ortonb110/tip-calculator/static/js/787.364622ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.300c3d0e.css",
+    "static/js/main.7cba6227.js"
+  ]
+}
