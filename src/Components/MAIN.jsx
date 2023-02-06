@@ -30,14 +30,14 @@ const MAIN = () => {
 
   function computeResult() {
     if (people === true && amountBool === true) {
-      return (amount * (percentage / 100)) / numberOfPeople;
+      return ((amount * (percentage / 100)) / numberOfPeople).toFixed(1);
     } else {
       return "0.00";
     }
   }
   function computeTotalAmount() {
     if (people === true && amountBool === true) {
-      return ((amount * (percentage / 100)) / numberOfPeople) * numberOfPeople;
+      return (Number(amount) + Number(tipAmount)).toFixed(1);
     } else {
       return "0.00";
     }
@@ -57,14 +57,14 @@ const MAIN = () => {
   }, [tipAmount, numberOfPeople, amount, percentage, totalAmount]);
 
   return (
-    <Fragment>
-      <header className="text-center">
+    <div className="mt-[16rem]">
+      <header className="text-center ">
         <a href="../App.js" id="logo">
           <img
             src={logo}
             alt="Splitter Logo"
             aria-controls="logo"
-            className="w-[8.7rem] h-[5.3rem] mx-auto mb-[8.8rem]"
+            className="w-[8.7rem] h-[5.3rem] mx-auto mb-[8.8rem] "
           />
         </a>
       </header>
@@ -154,7 +154,6 @@ const MAIN = () => {
                   <input
                     type="number"
                     placeholder="Custom"
-                    value={percentage}
                     onChange={getPercentage}
                     className="input placeholder-darkGrayishCyan w-[11.7rem] rounded-md h-[4.8rem] focus:border-primaryColor focus:border-2 transition"
                   />
@@ -221,7 +220,7 @@ const MAIN = () => {
           </section>
         </div>
       </main>
-    </Fragment>
+    </div>
   );
 };
 
