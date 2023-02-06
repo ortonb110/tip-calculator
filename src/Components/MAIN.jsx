@@ -57,7 +57,7 @@ const MAIN = () => {
   }, [tipAmount, numberOfPeople, amount, percentage, totalAmount]);
 
   return (
-    <div className="mt-[16rem]">
+    <div className="mt-[9rem]">
       <header className="text-center ">
         <a href="../App.js" id="logo">
           <img

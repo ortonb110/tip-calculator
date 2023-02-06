@@ -32,7 +32,7 @@
 
 <div align="center">
 
-![](./src/Assets/images/Screenshot.jpg)
+![](../tip-calculator/src/Assets/images/Screenshot.jpg)
 
 </div>
 
