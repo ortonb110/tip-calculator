@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/tip-calculator/static/css/main.ed03a765.css",
-    "main.js": "/tip-calculator/static/js/main.d7c51ace.js",
+    "main.css": "/tip-calculator/static/css/main.4077eef9.css",
+    "main.js": "/tip-calculator/static/js/main.cdc44617.js",
     "static/js/787.364622ff.chunk.js": "/tip-calculator/static/js/787.364622ff.chunk.js",
     "static/media/logo.svg": "/tip-calculator/static/media/logo.3cc0528bd46321d63d85702006069614.svg",
     "static/media/icon-dollar.svg": "/tip-calculator/static/media/icon-dollar.9f9be3534a9295a6595764d63a7bf3a3.svg",
     "static/media/icon-person.svg": "/tip-calculator/static/media/icon-person.65bfd20465dd1d2cb58c0b53e1160442.svg",
     "index.html": "/tip-calculator/index.html",
-    "main.ed03a765.css.map": "/tip-calculator/static/css/main.ed03a765.css.map",
-    "main.d7c51ace.js.map": "/tip-calculator/static/js/main.d7c51ace.js.map",
+    "main.4077eef9.css.map": "/tip-calculator/static/css/main.4077eef9.css.map",
+    "main.cdc44617.js.map": "/tip-calculator/static/js/main.cdc44617.js.map",
     "787.364622ff.chunk.js.map": "/tip-calculator/static/js/787.364622ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed03a765.css",
-    "static/js/main.d7c51ace.js"
+    "static/css/main.4077eef9.css",
+    "static/js/main.cdc44617.js"
   ]
 }
