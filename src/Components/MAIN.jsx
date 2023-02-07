@@ -28,7 +28,7 @@ const MAIN = () => {
     setPeople(true);
   };
 
-  function computeResult() {
+  function computeTip() {
     if (people === true && amountBool === true) {
       return ((amount * (percentage / 100)) / numberOfPeople).toFixed(1);
     } else {
@@ -37,7 +37,10 @@ const MAIN = () => {
   }
   function computeTotalAmount() {
     if (people === true && amountBool === true) {
-      return (Number(amount) + Number(tipAmount)).toFixed(1);
+      return (
+        Number(amount) +
+        Number(tipAmount) * Number(numberOfPeople)
+      ).toFixed(1);
     } else {
       return "0.00";
     }
@@ -52,12 +55,12 @@ const MAIN = () => {
   };
 
   useEffect(() => {
-    setTipAmount(computeResult());
+    setTipAmount(computeTip());
     setTotalAmount(computeTotalAmount);
   }, [tipAmount, numberOfPeople, amount, percentage, totalAmount]);
 
   return (
-    <div className="mt-[9rem]">
+    <div className="mt-[12rem]">
       <header className="text-center ">
         <a href="../App.js" id="logo">
           <img
